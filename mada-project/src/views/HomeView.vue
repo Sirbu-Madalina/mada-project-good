@@ -41,7 +41,7 @@ const onBackgroundClick = (event) => {
             <button @click="closeModal" class="float-right pt-2 pr-2 text-2xl"> &times; <!-- This represents a cross (×) character -->
             </button>
             <!-- Iframe content -->
-            <iframe class="w-full h-96" src="https://firebasestorage.googleapis.com/v0/b/madalina-portofolio.appspot.com/o/CV%20-%20English%20.pdf?alt=media&token=ddc37f5d-affc-46c4-96c2-392184fc6118"></iframe>
+            <iframe class="w-full h-96" src="https://firebasestorage.googleapis.com/v0/b/madalina-portofolio.appspot.com/o/CV%20-%20English%20good.pdf?alt=media&token=66ae34bb-482a-4ae5-b9c7-2f7d00a19524"></iframe>
           </div>
         </div>      
       </div>
@@ -71,7 +71,7 @@ const onBackgroundClick = (event) => {
             <button @click="closeModal" class="float-right pt-2 pr-2 text-2xl"> &times; <!-- This represents a cross (×) character -->
             </button>
             <!-- Iframe content -->
-            <iframe class="w-full h-96" id="myiframe" src="https://firebasestorage.googleapis.com/v0/b/madalina-portofolio.appspot.com/o/CV%20-%20English%20.pdf?alt=media&token=ddc37f5d-affc-46c4-96c2-392184fc6118"></iframe>
+            <iframe class="w-full h-96" id="myiframe" src="https://firebasestorage.googleapis.com/v0/b/madalina-portofolio.appspot.com/o/CV%20-%20English%20good.pdf?alt=media&token=66ae34bb-482a-4ae5-b9c7-2f7d00a19524"></iframe>
           </div>
         </div>
 
