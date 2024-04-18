@@ -19,6 +19,14 @@ export default function useModal() {
       modalIframeSrc: 'https://indd.adobe.com/view/17b0c158-029d-43be-9155-7833d972b335',
     },
     {
+      id: 'my_modal_3',
+      imgSrc: '../src/assets/img/flyer.png',
+      title: 'Saedding',
+      modalTitle: 'Saedding',
+      modalContent: 'In our team of three, we collaborated on a project to craft a flyer representing Saedding. Each member brought their unique skills to the table, with my specific role being the creation of illustrations. I focused on designing visually engaging artwork that reflected the Saedding character and values, ensuring the illustrations would harmonize with the overall aesthetic of the flyer and effectively convey the intended message. ',
+      modalIframeSrc: 'https://indd.adobe.com/view/87244edc-9900-46de-b2a3-469e5bea84c4',
+    },
+    {
       id: 'my_modal_4',
       imgSrc: '../src/assets/img/video.png',
       title: 'Video',
