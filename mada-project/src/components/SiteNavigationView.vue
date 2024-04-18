@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-
 // Reactive property to track the visibility of the menu
 const isMenuOpen = ref(false)
 
@@ -8,7 +7,6 @@ const isMenuOpen = ref(false)
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
-
 </script>
 
 
@@ -17,13 +15,12 @@ const toggleMenu = () => {
         <nav class="fixed top-0 left-0 z-50 flex justify-between items-center w-full flex-wrap bg-light shadow-sm">
             <div class="flex justify-between items-center w-full md:w-auto">
                
-                <!-- It redirects you to the home page when you press the logo -->
+                
                <RouterLink :to ="{ name: 'home'}">
                 <div class="flex items-center">
                     <img src="../assets/img/logo.png" alt="logo" class="py-0 md:py-1 px-3 my-1 md:my-3 h-10 md:h-16 w-19 md:w-30">
                 </div>
                </RouterLink>
-
 
                 <!-- Burger icon -->
                 <div class="px-4 cursor-pointer md:hidden" id="burger" @click="toggleMenu">
