@@ -39,6 +39,19 @@
 </template>
 
 <script>
+import image1 from '../assets/img/indesign.png';
+import image2 from '../assets/img/photoshop.png';
+import image3 from '../assets/img/ilustrator.png';
+import image4 from '../assets/img/aftereffects.png';
+import image5 from '../assets/img/figma.png';
+import image6 from '../assets/img/premiere.png';
+
+import image7 from '../assets/img/html&css.png';
+import image8 from '../assets/img/javascript.png';
+import image9 from '../assets/img/vue.png';
+import image10 from '../assets/img/git.png';
+import image11 from '../assets/img/WordPress.png';
+
   export default {
     data() {
       return {
@@ -48,23 +61,23 @@
             title: 'My Skills',
             description: 'During my Multimedia studies, I gained valuable experience using the Adobe Creative Suite. I applied these skills to various projects, both within the academic environment and for external clients, showcasing my ability to translate creative concepts into visually appealing deliverables.',
             skills: [
-              { name: 'InDesign',  image: '../src/assets/img/indesign.png' },
-              { name: 'Photoshop', image: '../src/assets/img/photoshop.png' },
-                { name: 'Ilustrator', image: '../src/assets/img/ilustrator.png' },
-                { name: 'After Effects', image: '../src/assets/img/aftereffects.png' },
-                { name: 'Figma', image: '../src/assets/img/figma.png' },
-                { name: 'Premiere Pro', image: '../src/assets/img/premiere.png' },
+              { name: 'InDesign',  image: image1 },
+              { name: 'Photoshop', image: image2 },
+                { name: 'Ilustrator', image: image3 },
+                { name: 'After Effects', image: image4 },
+                { name: 'Figma', image: image5 },
+                { name: 'Premiere Pro', image: image6 },
             ],
           },
           {
             title: 'My Skills',
             description: 'While I love the artistic side of design, my primary focus is on enhancing my coding skills, where I see challenges as puzzles waiting to be solved.',
             skills: [
-                { name: 'HTML&CSS', image: '../src/assets/img/html&css.png' },
-                { name: 'JavaScript', image: '../src/assets/img/javascript.png' },
-                { name: 'Vue.js', image: '../src/assets/img/vue.png' },
-                { name: 'Git', image: '../src/assets/img/git.png' },
-                { name: 'Wordpress', image: '../src/assets/img/WordPress.png' }
+                { name: 'HTML&CSS', image: image7 },
+                { name: 'JavaScript', image: image8 },
+                { name: 'Vue.js', image: image9 },
+                { name: 'Git', image: image10 },
+                { name: 'Wordpress', image: image11 }
                 
             ],
           },
