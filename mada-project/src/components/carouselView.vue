@@ -47,7 +47,7 @@ import image5 from '../assets/img/figma.png';
 import image6 from '../assets/img/premiere.png';
 
 import image7 from '../assets/img/html&css.png';
-import image8 from '../assets/img/javascript.png';
+import image8 from '../assets/img/JavaScript.png';
 import image9 from '../assets/img/vue.png';
 import image10 from '../assets/img/git.png';
 import image11 from '../assets/img/WordPress.png';

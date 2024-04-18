@@ -1,10 +1,10 @@
 import { ref } from 'vue';
 
 import image1 from '../assets/img/artane.png';
-import image2 from '../assets/img/trapholt.png';
-import image3 from '../assets/img/saedding.png';
+import image2 from '../assets/img/Trapholt.png';
+import image3 from '../assets/img/flyer.png';
 import image4 from '../assets/img/video.png';
-import image5 from '../assets/img/posters.png';
+import image5 from '../assets/img/tv.png';
 
 
 export default function useModal() {
