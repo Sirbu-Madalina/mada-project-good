@@ -13,7 +13,7 @@ export default function useModal() {
       id: 'my_modal_1',
       imgSrc: image1,
       title: 'Menu',
-      modalTitle: 'Menu Design for San Marino Takeaway',
+      modalTitle: 'Menu Design',
       modalContent: 'As a graphic designer, I enjoyed creating a series of seasonal menus for San Marino Takeaway, utilizing a warm, autumnal color palette for a fall flyer and a cozy, textured design for a winter trifold menu. Each layout was designed with care to highlight signature dishes and to craft a visual experience that resonates with the brand and draws customers in. ',
       modalIframeSrc: 'https://indd.adobe.com/view/7f7aafcc-2d74-4e75-a494-b60d213811cd',
     },

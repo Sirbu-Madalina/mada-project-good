@@ -18,7 +18,7 @@
       
       <iframe :src="card.modalIframeSrc" title="YouTube video player"  frameborder="0" class="mb-10 w-full h-[50vh] md:h-[50vh] lg:h-[80vh]" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <!-- <iframe src="https://www.youtube.com/embed/UBb1zzIF9gk?si=ebrkrbJq_7LLc1mZ"></iframe>
-       --><button @click="closeModal(card.id)" class="btn btn-sm btn-circle btn-ghost absolute bg-dark py-2 px-4 rounded-full right-2 top-2 text-light">Close</button>
+       --><button @click="closeModal(card.id)" class="btn btn-sm btn-circle btn-ghost absolute bg-dark py-2 px-4 rounded-full right-2 top-2 text-light md:text-xl text-xs">✕</button>
     </dialog>
   </div>
 </template>
