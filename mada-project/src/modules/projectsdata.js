@@ -39,7 +39,7 @@ export default function useModal() {
       title: 'Video',
       modalTitle: 'Video',
       modalContent: 'Creating the video ad for San Marino Takeaway involved a creative process of curating and editing some public YouTube content. I sourced high-quality footage that reflected the same vibrant atmosphere and culinary excellence of San Marino. With careful editing, I stitched together scenes that highlighted the takeaway short process of making the main dish, the burger. Color adjustments and fine-tuning were applied to each clip to create a cohesive and appealing visual story. ',
-      modalIframeSrc: 'https://youtu.be/UBb1zzIF9gk',
+      modalIframeSrc: 'https://www.youtube.com/embed/UBb1zzIF9gk?si=ebrkrbJq_7LLc1mZ',
     },
     {
       id: 'my_modal_5',
